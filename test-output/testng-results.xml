@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-12T01:35:23 IST" name="EzLife Healthcare Suite" finished-at="2026-04-12T01:36:00 IST" duration-ms="37812">
+    <groups>
+    </groups>
+    <test started-at="2026-04-12T01:35:23 IST" name="All Tests" finished-at="2026-04-12T01:36:00 IST" duration-ms="37812">
+      <class name="tests.EzLifeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:23 IST" name="setUp" finished-at="2026-04-12T01:35:37 IST" duration-ms="14359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomePageTitleAndLogo()[pri:1, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:37 IST" name="testHomePageTitleAndLogo" description="TC_01: Verify homepage loads with correct title and logo" finished-at="2026-04-12T01:35:37 IST" duration-ms="339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitleAndLogo -->
+        <test-method signature="testPopupClosed()[pri:2, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:38 IST" name="testPopupClosed" description="TC_02: Verify popup is closed successfully" finished-at="2026-04-12T01:35:58 IST" duration-ms="20432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopupClosed -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:58 IST" name="tearDown" finished-at="2026-04-12T01:36:00 IST" duration-ms="2330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.EzLifeTests -->
+    </test> <!-- All Tests -->
+  </suite> <!-- EzLife Healthcare Suite -->
+</testng-results>

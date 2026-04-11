@@ -1,0 +1,70 @@
+2026-04-12 00:53:22 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 00:53:27 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - Page Title: Buy Healthcare Products Online in India | Trusted E-commerce for Health & Wellness
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - Title validation passed
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - Logo is displayed
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 00:53:36 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 00:53:47 [main] INFO  tests.BaseTest - Popup close action performed
+2026-04-12 00:53:57 [main] INFO  tests.BaseTest - Popup is not visible
+2026-04-12 00:53:57 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 00:53:57 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 00:53:58 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 00:54:30 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 00:54:34 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - Page Title: Buy Healthcare Products Online in India | Trusted E-commerce for Health & Wellness
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - Title validation passed
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - Logo is displayed
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 00:54:37 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 00:54:49 [main] INFO  tests.BaseTest - Popup close action performed
+2026-04-12 00:54:59 [main] INFO  tests.BaseTest - Popup is not visible
+2026-04-12 00:54:59 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 00:54:59 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 00:54:59 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 01:33:14 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 01:33:19 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 01:33:19 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 01:33:19 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 01:33:35 [main] INFO  tests.BaseTest - Page Title: Buy Healthcare Products Online in India | Trusted E-commerce for Health & Wellness
+2026-04-12 01:33:36 [main] INFO  tests.BaseTest - Title validation passed
+2026-04-12 01:33:36 [main] INFO  tests.BaseTest - Logo is displayed
+2026-04-12 01:33:36 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 01:33:38 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 01:33:49 [main] INFO  tests.BaseTest - Popup close action performed
+2026-04-12 01:33:59 [main] INFO  tests.BaseTest - Popup is not visible
+2026-04-12 01:33:59 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 01:34:00 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 01:34:08 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 01:35:23 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 01:35:28 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 01:35:37 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 01:35:37 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 01:35:37 [main] INFO  tests.BaseTest - Page Title: Buy Healthcare Products Online in India | Trusted E-commerce for Health & Wellness
+2026-04-12 01:35:37 [main] INFO  tests.BaseTest - Title validation passed
+2026-04-12 01:35:37 [main] INFO  tests.BaseTest - Logo is displayed
+2026-04-12 01:35:37 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 01:35:38 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 01:35:48 [main] INFO  tests.BaseTest - Popup close action performed
+2026-04-12 01:35:58 [main] INFO  tests.BaseTest - Popup is not visible
+2026-04-12 01:35:58 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 01:35:58 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 01:36:00 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 01:38:40 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 01:38:44 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 01:38:44 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 01:38:45 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 01:38:51 [main] INFO  tests.BaseTest - Page Title: Buy Healthcare Products Online in India | Trusted E-commerce for Health & Wellness
+2026-04-12 01:38:51 [main] INFO  tests.BaseTest - Title validation passed
+2026-04-12 01:38:51 [main] INFO  tests.BaseTest - Logo is displayed
+2026-04-12 01:38:51 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 01:38:51 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 01:39:04 [main] INFO  tests.BaseTest - Popup close action performed
+2026-04-12 01:39:14 [main] INFO  tests.BaseTest - Popup is not visible
+2026-04-12 01:39:14 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 01:39:15 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 01:39:19 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
