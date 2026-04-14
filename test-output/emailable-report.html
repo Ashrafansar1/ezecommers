@@ -8,12 +8,24 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">EzLife Healthcare Suite</th></tr>
-<tr><td><a href="#t0">All Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">37,812</td><td></td><td></td></tr>
+<tr><th colspan="8">EzLife Suite</th></tr>
+<tr><td><a href="#t0">All Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">26,326</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">EzLife Healthcare Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.EzLifeTests</td><td><a href="#m0">testHomePageTitleAndLogo</a></td><td rowspan="1">1775937937546</td><td rowspan="1">339</td></tr><tr class="passedeven"><td><a href="#m1">testPopupClosed</a></td><td rowspan="1">1775937938123</td><td rowspan="1">20432</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">EzLife Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.HomeTests</td><td><a href="#m0">testPopupClose</a></td><td rowspan="1">1776192622625</td><td rowspan="1">17217</td></tr><tr><th colspan="4">All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.HomeTests</td><td><a href="#m1">testLogo</a></td><td rowspan="1">1776192621521</td><td rowspan="1">238</td></tr></tbody>
 </table>
-<h2>All Tests</h2><h3 id="m0">tests.EzLifeTests#testHomePageTitleAndLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.EzLifeTests#testPopupClosed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>All Tests</h2><h3 id="m0">tests.HomeTests#testPopupClose</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@aria-label=&apos;Close&apos;] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55598}, goog:processID: 21036, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55598/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cba904f4a4c62dd42ba14c4b126dd6c3
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at pages.BasePage.click(BasePage.java:28)
+	at pages.HomePage.closePopup(HomePage.java:22)
+	at tests.HomeTests.testPopupClose(HomeTests.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.HomeTests#testLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

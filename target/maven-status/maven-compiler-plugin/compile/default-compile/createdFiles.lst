@@ -2,3 +2,4 @@ pages\BasePage.class
 pages\HomePage.class
 utils\ConfigReader.class
 utils\DriverManager.class
+utils\WaitUtils.class

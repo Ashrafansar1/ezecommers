@@ -4,16 +4,12 @@
 
     <Appenders>
 
-        <!-- Console Logs -->
         <Console name="Console" target="SYSTEM_OUT">
-            <PatternLayout 
-                pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger - %msg%n"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger - %msg%n"/>
         </Console>
 
-        <!-- File Logs -->
         <File name="FileLogger" fileName="logs/test.log">
-            <PatternLayout 
-                pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger - %msg%n"/>
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level %logger - %msg%n"/>
         </File>
 
     </Appenders>

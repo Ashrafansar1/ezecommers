@@ -8,12 +8,34 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">EzLife Healthcare Suite</th></tr>
-<tr><td><a href="#t0">All Tests</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">39,080</td><td></td><td></td></tr>
+<tr><th colspan="8">EzLife Suite</th></tr>
+<tr><td><a href="#t0">All Tests</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">10,180</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">EzLife Healthcare Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">tests.EzLifeTests</td><td><a href="#m0">testHomePageTitleAndLogo</a></td><td rowspan="1">1775938124921</td><td rowspan="1">6379</td></tr><tr class="passedeven"><td><a href="#m1">testPopupClosed</a></td><td rowspan="1">1775938131420</td><td rowspan="1">23556</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">EzLife Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">All Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">tests.HomeTests</td><td><a href="#m0">testPopupClose</a></td><td rowspan="1">1776193465804</td><td rowspan="1">3338</td></tr><tr><th colspan="4">All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">tests.HomeTests</td><td><a href="#m1">testLogo</a></td><td rowspan="1">1776193465052</td><td rowspan="1">189</td></tr></tbody>
 </table>
-<h2>All Tests</h2><h3 id="m0">tests.EzLifeTests#testHomePageTitleAndLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.EzLifeTests#testPopupClosed</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>All Tests</h2><h3 id="m0">tests.HomeTests#testPopupClose</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button aria-label=&quot;Close&quot; class=&quot;absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:outline-none transition-colors&quot;&gt;...&lt;/button&gt; is not clickable at point (607, 44). Other element would receive the click: &lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z&quot; clip-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;
+  (Session info: chrome=146.0.7680.180)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0e9779bcf495e3fe476e4dcae28155c, clickElement {id=f.A87976E28A00E92500D4254EBCA92275.d.ED8613293B9F8CC154789AD7C4530AE3.e.53}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49849}, goog:processID: 13872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49849/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (c0e9779bcf495e3fe476e4dcae28155c)] -&gt; xpath: //button[@aria-label=&apos;Close&apos;]]
+Session ID: c0e9779bcf495e3fe476e4dcae28155c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at pages.BasePage.click(BasePage.java:29)
+	at pages.HomePage.closePopup(HomePage.java:22)
+	at tests.HomeTests.testPopupClose(HomeTests.java:28)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">tests.HomeTests#testLogo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

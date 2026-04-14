@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3564","TC_03: Product click and navigation","EzLife Healthcare Suite","2026-04-14","passed","2026-04-14","tests.EzLifeTests","All Tests","tests.EzLifeTests","verifyClickProductOnHomePage"
+"","11","testProductClick","EzLife Suite","2026-04-15","broken","2026-04-15","tests.HomeTests","All Tests","tests.HomeTests","testProductClick"
+"","1","setUp","EzLife Suite","2026-04-15","broken","2026-04-15","tests.HomeTests","All Tests","tests.HomeTests","setUp"
+"","10701","TC_02: Verify popup closed","EzLife Healthcare Suite","2026-04-14","passed","2026-04-14","tests.EzLifeTests","All Tests","tests.EzLifeTests","testPopupClosed"
+"","7223","testPopupClose","EzLife Suite","2026-04-15","passed","2026-04-15","tests.HomeTests","All Tests","tests.HomeTests","testPopupClose"
+"","98","testLogo","EzLife Suite","2026-04-15","passed","2026-04-15","tests.HomeTests","All Tests","tests.HomeTests","testLogo"
+"","236","TC_01: Verify homepage loads with correct title and logo","EzLife Healthcare Suite","2026-04-14","passed","2026-04-14","tests.EzLifeTests","All Tests","tests.EzLifeTests","testHomePageTitleAndLogo"

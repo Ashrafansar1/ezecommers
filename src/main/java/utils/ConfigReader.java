@@ -1,46 +1,50 @@
 package utils;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
 public class ConfigReader {
 
-    private static Properties properties;
+    private static final Properties properties = new Properties();
 
     static {
         try {
             InputStream input = ConfigReader.class
                     .getClassLoader()
                     .getResourceAsStream("config.properties");
+
             if (input == null) {
-                throw new RuntimeException("config.properties not found in src/main/resources/");
+                throw new RuntimeException("config.properties NOT found");
             }
-            properties = new Properties();
+
             properties.load(input);
-            input.close();
-        } catch (IOException e) {
-            throw new RuntimeException("Failed to load config.properties", e);
+
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to load config file", e);
         }
     }
 
+    public static String getProperty(String key, String defaultValue) {
+        return properties.getProperty(key, defaultValue);
+    }
+
     public static String getBaseUrl() {
-        return properties.getProperty("base.url");
+        return getProperty("base.url", "");
     }
 
     public static String getBrowser() {
-        return properties.getProperty("browser", "chrome");
-    }
-
-    public static int getImplicitWait() {
-        return Integer.parseInt(properties.getProperty("implicit.wait", "10"));
+        return getProperty("browser", "chrome");
     }
 
     public static int getExplicitWait() {
-        return Integer.parseInt(properties.getProperty("explicit.wait", "15"));
+        return Integer.parseInt(getProperty("explicit.wait", "15"));
+    }
+
+    public static int getImplicitWait() {
+        return Integer.parseInt(getProperty("implicit.wait", "5"));
     }
 
     public static boolean isHeadless() {
-        return Boolean.parseBoolean(properties.getProperty("headless", "false"));
+        return Boolean.parseBoolean(getProperty("headless", "false"));
     }
 }

@@ -1,29 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-12T01:35:23 IST" name="EzLife Healthcare Suite" finished-at="2026-04-12T01:36:00 IST" duration-ms="37812">
+  <suite started-at="2026-04-15T00:20:13 IST" name="EzLife Suite" finished-at="2026-04-15T00:20:40 IST" duration-ms="26326">
     <groups>
     </groups>
-    <test started-at="2026-04-12T01:35:23 IST" name="All Tests" finished-at="2026-04-12T01:36:00 IST" duration-ms="37812">
-      <class name="tests.EzLifeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:23 IST" name="setUp" finished-at="2026-04-12T01:35:37 IST" duration-ms="14359" status="PASS">
+    <test started-at="2026-04-15T00:20:13 IST" name="All Tests" finished-at="2026-04-15T00:20:40 IST" duration-ms="26326">
+      <class name="tests.HomeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTests@df4b72]" started-at="2026-04-15T00:20:14 IST" name="setUp" finished-at="2026-04-15T00:20:18 IST" duration-ms="4381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomePageTitleAndLogo()[pri:1, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:37 IST" name="testHomePageTitleAndLogo" description="TC_01: Verify homepage loads with correct title and logo" finished-at="2026-04-12T01:35:37 IST" duration-ms="339" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@df4b72]" started-at="2026-04-15T00:20:18 IST" name="openHome" finished-at="2026-04-15T00:20:21 IST" duration-ms="2939" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomePageTitleAndLogo -->
-        <test-method signature="testPopupClosed()[pri:2, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:38 IST" name="testPopupClosed" description="TC_02: Verify popup is closed successfully" finished-at="2026-04-12T01:35:58 IST" duration-ms="20432" status="PASS">
+        </test-method> <!-- openHome -->
+        <test-method signature="testLogo()[pri:0, instance:tests.HomeTests@df4b72]" started-at="2026-04-15T00:20:21 IST" name="testLogo" finished-at="2026-04-15T00:20:21 IST" duration-ms="238" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testPopupClosed -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.EzLifeTests@1b1637e1]" started-at="2026-04-12T01:35:58 IST" name="tearDown" finished-at="2026-04-12T01:36:00 IST" duration-ms="2330" status="PASS">
+        </test-method> <!-- testLogo -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@df4b72]" started-at="2026-04-15T00:20:21 IST" name="openHome" finished-at="2026-04-15T00:20:22 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testPopupClose()[pri:0, instance:tests.HomeTests@df4b72]" started-at="2026-04-15T00:20:22 IST" name="testPopupClose" finished-at="2026-04-15T00:20:39 IST" duration-ms="17217" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //button[@aria-label='Close'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55598}, goog:processID: 21036, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55598/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cba904f4a4c62dd42ba14c4b126dd6c3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //button[@aria-label='Close'] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55598}, goog:processID: 21036, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55598/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cba904f4a4c62dd42ba14c4b126dd6c3
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at pages.BasePage.click(BasePage.java:28)
+at pages.HomePage.closePopup(HomePage.java:22)
+at tests.HomeTests.testPopupClose(HomeTests.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPopupClose -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTests@df4b72]" started-at="2026-04-15T00:20:39 IST" name="tearDown" finished-at="2026-04-15T00:20:40 IST" duration-ms="448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.EzLifeTests -->
+      </class> <!-- tests.HomeTests -->
     </test> <!-- All Tests -->
-  </suite> <!-- EzLife Healthcare Suite -->
+  </suite> <!-- EzLife Suite -->
 </testng-results>

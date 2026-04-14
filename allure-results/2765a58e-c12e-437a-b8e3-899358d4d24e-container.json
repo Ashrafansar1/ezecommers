@@ -1,0 +1,1 @@
+{"uuid":"2765a58e-c12e-437a-b8e3-899358d4d24e","name":"tests.HomeTests.openHome","children":["75be01ed-8f67-4b80-836e-f2cab157e7f1"],"description":"","befores":[{"name":"openHome","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1776191601044,"stop":1776191601849}],"afters":[],"start":1776191601044,"stop":1776191601849}

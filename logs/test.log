@@ -68,3 +68,251 @@
 2026-04-12 01:39:14 [main] INFO  tests.BaseTest - TC_02 Passed
 2026-04-12 01:39:15 [main] INFO  tests.BaseTest - Closing browser...
 2026-04-12 01:39:19 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 16:11:40 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 16:11:46 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 16:11:51 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 16:11:51 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 16:11:51 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 16:11:51 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 16:12:02 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 16:12:02 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 16:12:04 [main] INFO  tests.BaseTest - Scrolled down 2 times
+2026-04-12 16:12:05 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 16:12:07 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 16:12:44 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 16:12:49 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 16:12:53 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 16:12:53 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 16:12:53 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 16:12:53 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 16:13:04 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 16:13:04 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 16:13:06 [main] INFO  tests.BaseTest - Scrolled down 2 times
+2026-04-12 16:13:07 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 16:13:07 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 16:13:50 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 16:13:54 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 16:13:55 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 16:13:55 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 16:14:00 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 16:14:00 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 16:14:11 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 16:14:11 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 16:14:13 [main] INFO  tests.BaseTest - Scrolled down 2 times
+2026-04-12 16:14:14 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 16:14:14 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 12 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 30 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+2026-04-12 16:38:30 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Ashraf\AppData\Local\Temp\testng-eclipse-898325506\testng-customsuite.xml
+
+2026-04-12 16:38:31 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+2026-04-12 16:38:31 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 16:38:31 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-12 16:38:31 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ashraf\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-12 16:38:35 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 16:38:41 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 16:38:41 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 16:38:41 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 16:38:41 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 16:38:52 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 16:38:52 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 16:38:52 [main] INFO  tests.BaseTest - Scrolled once
+2026-04-12 16:38:52 [main] INFO  tests.BaseTest - Product clicked
+2026-04-12 16:38:52 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 16:38:53 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 16:38:53 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@7112ce6: 149 ms
+2026-04-12 16:38:53 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@e280403: 21 ms
+2026-04-12 16:38:53 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@4cad79bc: 35 ms
+2026-04-12 16:38:53 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@69d3cf7e: 34 ms
+2026-04-12 16:38:53 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@31a2a9fa: 56 ms
+2026-04-12 16:38:53 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@31b82e0f: 0 ms
+2026-04-12 16:45:20 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-04-12 16:45:20 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-04-12 16:45:20 [main] WARN  org.testng.TestNG - Ignoring duplicate listener : io.qameta.allure.testng.AllureTestNg
+2026-04-12 16:45:20 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\project\ezlife-clean\testng.xml
+
+2026-04-12 16:45:21 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 16:45:21 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 146.0.7680.165 (resolved driver for Chrome 146)
+2026-04-12 16:45:21 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Ashraf\.cache\selenium\chromedriver\win64\146.0.7680.165\chromedriver.exe
+2026-04-12 16:45:26 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 16:45:34 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 16:45:34 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 16:45:34 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 16:45:34 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 16:45:45 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 16:45:45 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 16:45:45 [main] INFO  tests.BaseTest - Scrolled once
+2026-04-12 16:45:45 [main] INFO  tests.BaseTest - Product clicked
+2026-04-12 16:45:45 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 16:45:46 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 17:09:21 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 17:09:32 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 17:10:26 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 17:10:27 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 17:10:27 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 17:10:28 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 17:10:38 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 17:10:38 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 17:10:38 [main] INFO  tests.BaseTest - Scrolled
+2026-04-12 17:10:39 [main] INFO  tests.BaseTest - Product clicked
+2026-04-12 17:10:39 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 17:10:43 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 17:16:44 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 17:17:19 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 17:17:53 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 17:17:54 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 17:17:54 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 17:17:54 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 17:18:09 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 17:18:09 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 17:18:09 [main] INFO  tests.BaseTest - Scrolled
+2026-04-12 17:18:09 [main] INFO  tests.BaseTest - Product clicked
+2026-04-12 17:18:12 [main] INFO  tests.BaseTest - TC_03 Passed
+2026-04-12 17:18:12 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 17:18:15 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 17:19:26 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 17:19:31 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 17:19:59 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 17:19:59 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 17:19:59 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 17:20:00 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 17:20:12 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 17:20:12 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 17:20:12 [main] INFO  tests.BaseTest - Scrolled
+2026-04-12 17:20:13 [main] INFO  tests.BaseTest - Product clicked
+2026-04-12 17:20:17 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 17:20:18 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-12 17:21:17 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-12 17:21:22 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-12 17:21:56 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-12 17:21:56 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-12 17:21:56 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-12 17:21:56 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-12 17:22:08 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-12 17:22:08 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-12 17:22:08 [main] INFO  tests.BaseTest - Scrolled
+2026-04-12 17:22:09 [main] INFO  tests.BaseTest - Product clicked
+2026-04-12 17:22:12 [main] INFO  tests.BaseTest - TC_03 Passed
+2026-04-12 17:22:12 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-12 17:22:14 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-14 23:03:54 [main] INFO  tests.BaseTest - ===== Test Execution Started =====
+2026-04-14 23:04:04 [main] INFO  tests.BaseTest - Browser launched successfully
+2026-04-14 23:04:10 [main] INFO  tests.BaseTest - Navigated to URL: https://www.ezlifehealthcare.com/
+2026-04-14 23:04:10 [main] INFO  tests.BaseTest - TC_01 Started
+2026-04-14 23:04:10 [main] INFO  tests.BaseTest - TC_01 Passed
+2026-04-14 23:04:11 [main] INFO  tests.BaseTest - TC_02 Started
+2026-04-14 23:04:22 [main] INFO  tests.BaseTest - TC_02 Passed
+2026-04-14 23:04:22 [main] INFO  tests.BaseTest - TC_03 Started
+2026-04-14 23:04:22 [main] INFO  tests.BaseTest - Scrolled
+2026-04-14 23:04:22 [main] INFO  tests.BaseTest - Product clicked
+2026-04-14 23:04:25 [main] INFO  tests.BaseTest - TC_03 Passed
+2026-04-14 23:04:25 [main] INFO  tests.BaseTest - Closing browser...
+2026-04-14 23:04:40 [main] INFO  tests.BaseTest - ===== Test Execution Finished =====
+2026-04-15 00:03:13 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:03:18 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:03:19 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:03:21 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:03:29 [main] INFO  tests.BaseTest - Scrolling page
+2026-04-15 00:03:29 [main] INFO  tests.BaseTest - Click product
+2026-04-15 00:03:30 [main] INFO  tests.BaseTest - Validating URL
+2026-04-15 00:03:30 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:03:32 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:06:06 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:06:12 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:06:21 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:06:23 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:06:30 [main] INFO  tests.BaseTest - Scrolling page
+2026-04-15 00:06:30 [main] INFO  tests.BaseTest - Click product
+2026-04-15 00:06:30 [main] INFO  tests.BaseTest - Validating URL
+2026-04-15 00:06:30 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:06:31 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:08:08 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:08:13 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:08:18 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:08:19 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:08:28 [main] INFO  tests.BaseTest - Scrolling page
+2026-04-15 00:08:28 [main] INFO  tests.BaseTest - Click product
+2026-04-15 00:08:28 [main] INFO  tests.BaseTest - Validating URL
+2026-04-15 00:08:28 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:08:29 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:10:18 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:10:22 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:10:26 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:10:27 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:10:35 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:10:36 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:11:09 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:11:13 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:11:18 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:11:19 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:11:27 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:11:28 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:12:04 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:12:08 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:12:11 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:12:11 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:12:19 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:12:19 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:15:32 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:18:58 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:20:14 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:20:18 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:20:21 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:20:22 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:20:39 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:20:40 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:22:27 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:22:31 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:22:34 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:22:35 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:22:42 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:22:42 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:28:01 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:29:17 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:29:21 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:29:22 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:29:25 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:29:32 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:29:44 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:33:46 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:33:51 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:33:51 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:33:53 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:33:57 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:33:57 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-04-15 00:34:19 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-04-15 00:34:22 [main] INFO  tests.BaseTest - Browser launched
+2026-04-15 00:34:25 [main] INFO  tests.BaseTest - Checking logo
+2026-04-15 00:34:25 [main] INFO  tests.BaseTest - Closing popup
+2026-04-15 00:34:29 [main] INFO  tests.BaseTest - Closing browser
+2026-04-15 00:34:29 [main] INFO  tests.BaseTest - ===== Test Finished =====
