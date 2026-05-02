@@ -16,19 +16,26 @@ public class HomeTests extends BaseTest {
         home = new HomePage(driver);
     }
 
-    @Test
+    @Test(priority = 1)
     public void testLogo() {
         log.info("Checking logo");
         Assert.assertTrue(home.isLogoDisplayed());
     }
 
-    @Test
+    @Test(priority = 2)
     public void testPopupClose() {
         log.info("Closing popup");
         home.closePopup();
         Assert.assertFalse(home.isPopupPresent());
     }
 
-    
+    @Test(priority = 3)
+    public void testFacebookIcon() {
 
+        log.info("Checking Facebook icon");
+
+        home.scrollDown();
+
+        Assert.assertTrue(home.isFacebookIconDisplayed());
+    }
 }

@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-EzLife_Suite" class="navigator-link">
-              <span class="suite-name border-failed">EzLife Suite</span>
+              <span class="suite-name border-passed">EzLife Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-EzLife_Suite" class="hide-methods failed suite-EzLife_Suite"> (hide)</a> <!-- hide-methods failed suite-EzLife_Suite -->
-                      <a href="#" panel-name="suite-EzLife_Suite" class="show-methods failed suite-EzLife_Suite"> (show)</a> <!-- show-methods failed suite-EzLife_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-EzLife_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-EzLife_Suite" title="tests.HomeTests" class="method navigator-link" hash-for-method="testPopupClose">testPopupClose</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-EzLife_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,7 +103,17 @@
                     <div class="method-list-content passed suite-EzLife_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EzLife_Suite" title="tests.HomeTests" class="method navigator-link" hash-for-method="testFacebookIcon">testFacebookIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-EzLife_Suite" title="tests.HomeTests" class="method navigator-link" hash-for-method="testLogo">testLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-EzLife_Suite" title="tests.HomeTests" class="method navigator-link" hash-for-method="testPopupClose">testPopupClose</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-EzLife_Suite -->
@@ -132,45 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-EzLife_Suite" class="panel EzLife_Suite">
-          <div class="suite-EzLife_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">tests.HomeTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testPopupClose">
-                  </a> <!-- testPopupClose -->
-                  <span class="method-name">testPopupClose</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button aria-label=&quot;Close&quot; class=&quot;absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:outline-none transition-colors&quot;&gt;...&lt;/button&gt; is not clickable at point (607, 44). Other element would receive the click: &lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z&quot; clip-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;
-  (Session info: chrome=146.0.7680.180)
-Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c0e9779bcf495e3fe476e4dcae28155c, clickElement {id=f.A87976E28A00E92500D4254EBCA92275.d.ED8613293B9F8CC154789AD7C4530AE3.e.53}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49849}, goog:processID: 13872, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49849/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (c0e9779bcf495e3fe476e4dcae28155c)] -&gt; xpath: //button[@aria-label=&apos;Close&apos;]]
-Session ID: c0e9779bcf495e3fe476e4dcae28155c
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at pages.BasePage.click(BasePage.java:29)
-	at pages.HomePage.closePopup(HomePage.java:22)
-	at tests.HomeTests.testPopupClose(HomeTests.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-EzLife_Suite-class-failed -->
           <div class="suite-EzLife_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -179,9 +136,23 @@ Session ID: c0e9779bcf495e3fe476e4dcae28155c
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="testFacebookIcon">
+                  </a> <!-- testFacebookIcon -->
+                  <span class="method-name">testFacebookIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="testLogo">
                   </a> <!-- testLogo -->
                   <span class="method-name">testLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPopupClose">
+                  </a> <!-- testPopupClose -->
+                  <span class="method-name">testPopupClose</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,20 +209,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testPopupClose')
 data.setCell(0, 2, 'tests.HomeTests')
-data.setCell(0, 3, 3338);
+data.setCell(0, 3, 7723);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogo')
 data.setCell(1, 2, 'tests.HomeTests')
-data.setCell(1, 3, 189);
+data.setCell(1, 3, 200);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testFacebookIcon')
+data.setCell(2, 2, 'tests.HomeTests')
+data.setCell(2, 3, 189);
 window.suiteTableData['EzLife_Suite']= { tableData: data, tableDiv: 'times-div-EzLife_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 8 seconds</span>
               <div id="times-div-EzLife_Suite">
               </div> <!-- times-div-EzLife_Suite -->
             </div> <!-- times-div -->
@@ -284,25 +259,31 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">openHome</span>
-                <span class="method-start">3298 ms</span>
+                <span class="method-start">7489 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testLogo</span>
-                <span class="method-start">5762 ms</span>
+                <span class="method-start">15753 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">openHome</span>
-                <span class="method-start">5984 ms</span>
+                <span class="method-start">15978 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testPopupClose</span>
-                <span class="method-start">6514 ms</span>
+                <span class="method-start">16904 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">openHome</span>
+                <span class="method-start">24631 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFacebookIcon</span>
+                <span class="method-start">25435 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9865 ms</span>
+                <span class="method-start">25630 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

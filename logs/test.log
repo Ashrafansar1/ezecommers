@@ -316,3 +316,24 @@
 2026-04-15 00:34:25 [main] INFO  tests.BaseTest - Closing popup
 2026-04-15 00:34:29 [main] INFO  tests.BaseTest - Closing browser
 2026-04-15 00:34:29 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-02 13:44:12 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-02 13:44:21 [main] INFO  tests.BaseTest - Browser launched
+2026-05-02 13:44:24 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-02 13:44:31 [main] INFO  tests.BaseTest - Checking logo
+2026-05-02 13:44:33 [main] INFO  tests.BaseTest - Closing popup
+2026-05-02 13:44:40 [main] INFO  tests.BaseTest - Closing browser
+2026-05-02 13:44:43 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-02 13:47:57 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-02 13:48:02 [main] INFO  tests.BaseTest - Browser launched
+2026-05-02 13:48:05 [main] INFO  tests.BaseTest - Checking logo
+2026-05-02 13:48:07 [main] INFO  tests.BaseTest - Closing popup
+2026-05-02 13:48:15 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-02 13:48:21 [main] INFO  tests.BaseTest - Closing browser
+2026-05-02 13:48:22 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-02 13:53:16 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-02 13:53:24 [main] INFO  tests.BaseTest - Browser launched
+2026-05-02 13:53:32 [main] INFO  tests.BaseTest - Checking logo
+2026-05-02 13:53:33 [main] INFO  tests.BaseTest - Closing popup
+2026-05-02 13:53:42 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-02 13:53:42 [main] INFO  tests.BaseTest - Closing browser
+2026-05-02 13:53:45 [main] INFO  tests.BaseTest - ===== Test Finished =====

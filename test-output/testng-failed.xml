@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.HomeTests">
         <methods>
-          <include name="testPopupClose"/>
+          <include name="testFacebookIcon"/>
           <include name="openHome"/>
           <include name="tearDown"/>
           <include name="setUp"/>
