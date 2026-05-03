@@ -1,112 +1,135 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-02T13:44:12 IST" name="EzLife Suite" finished-at="2026-05-02T13:44:43 IST" duration-ms="31072">
+  <suite started-at="2026-05-03T16:22:20 IST" name="Default suite" finished-at="2026-05-03T16:24:06 IST" duration-ms="105753">
     <groups>
     </groups>
-    <test started-at="2026-05-02T13:44:12 IST" name="All Tests" finished-at="2026-05-02T13:44:43 IST" duration-ms="31072">
+    <test started-at="2026-05-03T16:22:20 IST" name="Default test" finished-at="2026-05-03T16:24:06 IST" duration-ms="105753">
       <class name="tests.HomeTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:12 IST" name="setUp" finished-at="2026-05-02T13:44:21 IST" duration-ms="8407" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:20 IST" name="setUp" finished-at="2026-05-03T16:22:26 IST" duration-ms="5441" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:21 IST" name="openHome" finished-at="2026-05-02T13:44:24 IST" duration-ms="2790" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:26 IST" name="openHome" finished-at="2026-05-03T16:22:33 IST" duration-ms="6746" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="testFacebookIcon()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:24 IST" name="testFacebookIcon" finished-at="2026-05-02T13:44:30 IST" duration-ms="5485" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label="Like"]"}
-  (Session info: chrome=146.0.7680.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [453cd255e951ece71221b6e5d070ae0b, findElement {using=xpath, value=//button[@aria-label="Like"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62981}, goog:processID: 18472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62981/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 453cd255e951ece71221b6e5d070ae0b]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@aria-label="Like"]"}
-  (Session info: chrome=146.0.7680.180)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [453cd255e951ece71221b6e5d070ae0b, findElement {using=xpath, value=//button[@aria-label="Like"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 146.0.7680.180, chrome: {chromedriverVersion: 146.0.7680.165 (4b989da09e1..., userDataDir: C:\Users\Ashraf\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62981}, goog:processID: 18472, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62981/devtoo..., se:cdpVersion: 146.0.7680.180, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 453cd255e951ece71221b6e5d070ae0b
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-at pages.HomePage.scrollDown(HomePage.java:33)
-at tests.HomeTests.testFacebookIcon(HomeTests.java:38)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
-at org.testng.TestNG.runSuites(TestNG.java:1134)
-at org.testng.TestNG.run(TestNG.java:1101)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testFacebookIcon -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:30 IST" name="openHome" finished-at="2026-05-02T13:44:31 IST" duration-ms="983" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openHome -->
-        <test-method signature="testLogo()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:31 IST" name="testLogo" finished-at="2026-05-02T13:44:32 IST" duration-ms="1427" status="PASS">
+        <test-method signature="testLogo()[pri:1, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:33 IST" name="testLogo" finished-at="2026-05-03T16:22:33 IST" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogo -->
-        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:32 IST" name="openHome" finished-at="2026-05-02T13:44:33 IST" duration-ms="590" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:33 IST" name="openHome" finished-at="2026-05-03T16:22:34 IST" duration-ms="1110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openHome -->
-        <test-method signature="testPopupClose()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:33 IST" name="testPopupClose" finished-at="2026-05-02T13:44:40 IST" duration-ms="6937" status="PASS">
+        <test-method signature="testPopupClose()[pri:2, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:34 IST" name="testPopupClose" finished-at="2026-05-03T16:22:47 IST" duration-ms="12311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPopupClose -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTests@894858]" started-at="2026-05-02T13:44:40 IST" name="tearDown" finished-at="2026-05-02T13:44:43 IST" duration-ms="3561" status="PASS">
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:47 IST" name="openHome" finished-at="2026-05-03T16:22:49 IST" duration-ms="2850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testFacebookIcon()[pri:3, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:49 IST" name="testFacebookIcon" finished-at="2026-05-03T16:22:50 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookIcon -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:50 IST" name="openHome" finished-at="2026-05-03T16:22:51 IST" duration-ms="1330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testHoverHeaderMenu(java.lang.String)[pri:4, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:22:51 IST" name="testHoverHeaderMenu" data-provider="headerMenus" finished-at="2026-05-03T16:23:01 IST" duration-ms="10383" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Health and Wellness]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverHeaderMenu -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:01 IST" name="openHome" finished-at="2026-05-03T16:23:04 IST" duration-ms="2492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testHoverHeaderMenu(java.lang.String)[pri:4, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:04 IST" name="testHoverHeaderMenu" data-provider="headerMenus" finished-at="2026-05-03T16:23:14 IST" duration-ms="10298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Respiratory Care]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverHeaderMenu -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:14 IST" name="openHome" finished-at="2026-05-03T16:23:17 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testHoverHeaderMenu(java.lang.String)[pri:4, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:17 IST" name="testHoverHeaderMenu" data-provider="headerMenus" finished-at="2026-05-03T16:23:27 IST" duration-ms="10357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobility & Patient Aid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverHeaderMenu -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:27 IST" name="openHome" finished-at="2026-05-03T16:23:29 IST" duration-ms="2376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testHoverHeaderMenu(java.lang.String)[pri:4, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:29 IST" name="testHoverHeaderMenu" data-provider="headerMenus" finished-at="2026-05-03T16:23:40 IST" duration-ms="10446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Personal Care & Hygiene]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverHeaderMenu -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:40 IST" name="openHome" finished-at="2026-05-03T16:23:40 IST" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testHoverHeaderMenu(java.lang.String)[pri:4, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:40 IST" name="testHoverHeaderMenu" data-provider="headerMenus" finished-at="2026-05-03T16:23:52 IST" duration-ms="11812" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Orthopedic Support]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverHeaderMenu -->
+        <test-method is-config="true" signature="openHome()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:52 IST" name="openHome" finished-at="2026-05-03T16:23:54 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHome -->
+        <test-method signature="testHoverHeaderMenu(java.lang.String)[pri:4, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:23:54 IST" name="testHoverHeaderMenu" data-provider="headerMenus" finished-at="2026-05-03T16:24:04 IST" duration-ms="10374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Weighing Scales]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHoverHeaderMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomeTests@2fb69ff6]" started-at="2026-05-03T16:24:04 IST" name="tearDown" finished-at="2026-05-03T16:24:06 IST" duration-ms="2035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.HomeTests -->
-    </test> <!-- All Tests -->
-  </suite> <!-- EzLife Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

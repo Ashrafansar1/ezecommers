@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.EzLifeTests">
+      <class name="tests.HomeTests">
         <methods>
-          <include name="verifyClickProductOnHomePage"/>
+          <include name="testHoverWeighingMenu"/>
+          <include name="testHoverIncontinenceMenu"/>
+          <include name="testHoverMobilityMenu"/>
+          <include name="openHome"/>
           <include name="tearDown"/>
+          <include name="testHoverRespiratoryCareMenu"/>
           <include name="setUp"/>
+          <include name="testHoverHealthMenu"/>
+          <include name="testHoverOrthopedicMenu"/>
         </methods>
-      </class> <!-- tests.EzLifeTests -->
+      </class> <!-- tests.HomeTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
