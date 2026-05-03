@@ -486,3 +486,214 @@
 2026-05-03 16:23:54 [main] INFO  tests.BaseTest - Hovering on header menu: Weighing Scales
 2026-05-03 16:24:04 [main] INFO  tests.BaseTest - Closing browser
 2026-05-03 16:24:06 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 17:05:57 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 17:06:02 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 17:06:06 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 17:06:07 [main] INFO  tests.BaseTest - Closing popup
+2026-05-03 17:06:20 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-03 17:06:22 [main] INFO  tests.BaseTest - Hovering on header menu: Health and Wellness
+2026-05-03 17:06:33 [main] INFO  tests.BaseTest - Hovering on header menu: Respiratory Care
+2026-05-03 17:06:44 [main] INFO  tests.BaseTest - Hovering on header menu: Mobility & Patient Aid
+2026-05-03 17:06:55 [main] INFO  tests.BaseTest - Hovering on header menu: Personal Care & Hygiene
+2026-05-03 17:07:07 [main] INFO  tests.BaseTest - Hovering on header menu: Orthopedic Support
+2026-05-03 17:07:25 [main] INFO  tests.BaseTest - Hovering on header menu: Weighing Scales
+2026-05-03 17:07:36 [main] INFO  tests.BaseTest - Hover → Click → Verify menu: Health and Wellness
+2026-05-03 17:08:08 [main] INFO  tests.BaseTest - Hover → Click → Verify menu: Respiratory Care
+2026-05-03 17:08:40 [main] INFO  tests.BaseTest - Hover → Click → Verify menu: Mobility & Patient Aid
+2026-05-03 17:09:12 [main] INFO  tests.BaseTest - Hover → Click → Verify menu: Personal Care & Hygiene
+2026-05-03 17:09:43 [main] INFO  tests.BaseTest - Hover → Click → Verify menu: Orthopedic Support
+2026-05-03 17:10:15 [main] INFO  tests.BaseTest - Hover → Click → Verify menu: Weighing Scales
+2026-05-03 17:10:46 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 17:10:47 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 17:28:43 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 17:28:50 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 17:29:10 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 17:29:11 [main] INFO  tests.BaseTest - Closing popup
+2026-05-03 17:29:44 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-03 17:29:45 [main] INFO  tests.BaseTest - === HOVER TEST: Health and Wellness ===
+2026-05-03 17:30:06 [main] INFO  tests.BaseTest - === HOVER TEST: Respiratory Care ===
+2026-05-03 17:30:30 [main] INFO  tests.BaseTest - === HOVER TEST: Mobility & Patient Aid ===
+2026-05-03 17:30:51 [main] INFO  tests.BaseTest - === HOVER TEST: Personal Care & Hygiene (Incontinence Care) ===
+2026-05-03 17:31:13 [main] INFO  tests.BaseTest - === HOVER TEST: Orthopedic Support ===
+2026-05-03 17:31:34 [main] INFO  tests.BaseTest - === HOVER TEST: Weighing Scales ===
+2026-05-03 17:31:56 [main] INFO  tests.BaseTest - === CLICK & URL TEST: Health and Wellness ===
+2026-05-03 17:32:06 [main] INFO  tests.BaseTest - Navigated URL: https://www.ezlifehealthcare.com/
+2026-05-03 17:32:07 [main] INFO  tests.BaseTest - === CLICK & URL TEST: Respiratory Care ===
+2026-05-03 17:32:18 [main] INFO  tests.BaseTest - Navigated URL: https://www.ezlifehealthcare.com/
+2026-05-03 17:32:19 [main] INFO  tests.BaseTest - === CLICK & URL TEST: Mobility & Patient Aid ===
+2026-05-03 17:32:30 [main] INFO  tests.BaseTest - Navigated URL: https://www.ezlifehealthcare.com/
+2026-05-03 17:32:31 [main] INFO  tests.BaseTest - === CLICK & URL TEST: Personal Care & Hygiene (Incontinence Care) ===
+2026-05-03 17:32:41 [main] INFO  tests.BaseTest - Navigated URL: https://www.ezlifehealthcare.com/
+2026-05-03 17:33:02 [main] INFO  tests.BaseTest - === CLICK & URL TEST: Orthopedic Support ===
+2026-05-03 17:33:13 [main] INFO  tests.BaseTest - Navigated URL: https://www.ezlifehealthcare.com/
+2026-05-03 17:33:14 [main] INFO  tests.BaseTest - === CLICK & URL TEST: Weighing Scales ===
+2026-05-03 17:33:24 [main] INFO  tests.BaseTest - Navigated URL: https://www.ezlifehealthcare.com/
+2026-05-03 17:33:24 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 17:33:25 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 17:38:52 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 17:38:55 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 17:38:58 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 17:38:59 [main] INFO  tests.BaseTest - Closing popup
+2026-05-03 17:39:13 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-03 17:39:14 [main] INFO  tests.BaseTest - Hovering on header menu: Health and Wellness
+2026-05-03 17:39:25 [main] INFO  tests.BaseTest - Hovering on header menu: Respiratory Care
+2026-05-03 17:39:36 [main] INFO  tests.BaseTest - Hovering on header menu: Mobility & Patient Aid
+2026-05-03 17:39:47 [main] INFO  tests.BaseTest - Hovering on header menu: Personal Care & Hygiene
+2026-05-03 17:39:58 [main] INFO  tests.BaseTest - Hovering on header menu: Orthopedic Support
+2026-05-03 17:40:09 [main] INFO  tests.BaseTest - Hovering on header menu: Weighing Scales
+2026-05-03 17:40:19 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 17:40:21 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:01:16 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:01:21 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:01:33 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:01:37 [main] INFO  tests.BaseTest - Test Started: Click Health and Wellness menu
+2026-05-03 22:01:39 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:01:40 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:05:22 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:05:27 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:05:31 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:05:32 [main] INFO  tests.BaseTest - Test Started: Click Health and Wellness menu
+2026-05-03 22:05:36 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:05:36 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:20:40 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:20:44 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:20:52 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:20:55 [main] INFO  tests.BaseTest - Test Started: Click Health and Wellness menu
+2026-05-03 22:20:58 [main] INFO  tests.BaseTest - ✅ Successfully navigated to Health and Wellness page: https://www.ezlifehealthcare.com/products?category=Health+and+Wellness&categorySlug=health-and-wellness
+2026-05-03 22:20:58 [main] INFO  tests.BaseTest - ✅ Successfully returned to Home Page
+2026-05-03 22:20:58 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:20:59 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:23:03 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:23:07 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:23:18 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:23:20 [main] INFO  tests.BaseTest - Clicking on 'Health and Wellness' menu
+2026-05-03 22:23:26 [main] INFO  tests.BaseTest - ✅ Navigated to Health and Wellness page
+2026-05-03 22:23:26 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:23:26 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:23:26 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:29:50 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:29:53 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:30:07 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:30:10 [main] INFO  tests.BaseTest - Clicking on 'Health and Wellness' menu
+2026-05-03 22:30:15 [main] INFO  tests.BaseTest - ✅ Navigated to Health and Wellness page
+2026-05-03 22:30:15 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:30:19 [main] INFO  tests.BaseTest - Clicking on 'Respiratory Care' menu
+2026-05-03 22:30:30 [main] INFO  tests.BaseTest - ✅ Navigated to Respiratory Care page
+2026-05-03 22:30:30 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:30:30 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:30:30 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:39:59 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:40:04 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:40:10 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:40:13 [main] INFO  tests.BaseTest - Clicking on 'Health and Wellness' menu
+2026-05-03 22:40:16 [main] INFO  tests.BaseTest - ✅ Navigated to Health and Wellness page
+2026-05-03 22:40:16 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:40:18 [main] INFO  tests.BaseTest - Clicking on 'Respiratory Care' menu
+2026-05-03 22:40:29 [main] INFO  tests.BaseTest - ✅ Navigated to Respiratory Care page
+2026-05-03 22:40:29 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:40:31 [main] INFO  tests.BaseTest - Clicking on 'Mobility & Patient Aid' menu
+2026-05-03 22:40:58 [main] INFO  tests.BaseTest - Clicking on 'Personal Care & Hygiene' menu
+2026-05-03 22:41:21 [main] INFO  tests.BaseTest - Clicking on 'Orthopedic Support' menu
+2026-05-03 22:41:42 [main] INFO  tests.BaseTest - Clicking on 'Weighing Scales' menu
+2026-05-03 22:41:54 [main] INFO  tests.BaseTest - ✅ Navigated to Weighing Scales page
+2026-05-03 22:41:54 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:41:54 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:41:55 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:43:23 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:43:27 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:43:34 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:43:36 [main] INFO  tests.BaseTest - Clicking on 'Health and Wellness' menu
+2026-05-03 22:43:39 [main] INFO  tests.BaseTest - ✅ Navigated to Health and Wellness page
+2026-05-03 22:43:39 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:43:41 [main] INFO  tests.BaseTest - Clicking on 'Respiratory Care' menu
+2026-05-03 22:43:53 [main] INFO  tests.BaseTest - ✅ Navigated to Respiratory Care page
+2026-05-03 22:43:53 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:43:56 [main] INFO  tests.BaseTest - Clicking on 'Mobility & Patient Aid' menu
+2026-05-03 22:44:19 [main] INFO  tests.BaseTest - Clicking on 'Personal Care & Hygiene' menu
+2026-05-03 22:44:41 [main] INFO  tests.BaseTest - Clicking on 'Orthopedic Support' menu
+2026-05-03 22:45:03 [main] INFO  tests.BaseTest - Clicking on 'Weighing Scales' menu
+2026-05-03 22:45:14 [main] INFO  tests.BaseTest - ✅ Navigated to Weighing Scales page
+2026-05-03 22:45:14 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:45:14 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:45:15 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:50:05 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:50:09 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:50:16 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:50:18 [main] INFO  tests.BaseTest - Clicking on 'Mobility & Patient Aid' menu
+2026-05-03 22:50:33 [main] INFO  tests.BaseTest - Clicking on 'Personal Care & Hygiene' menu
+2026-05-03 22:50:55 [main] INFO  tests.BaseTest - Clicking on 'Orthopedic Support' menu
+2026-05-03 22:51:16 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:51:16 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:53:43 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:53:47 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:53:52 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:53:53 [main] INFO  tests.BaseTest - Clicking on 'Mobility & Patient Aid' menu
+2026-05-03 22:54:11 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:54:12 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:57:17 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:57:21 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:57:23 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:57:30 [main] INFO  tests.BaseTest - Clicking on 'Mobility & Patient Aid' menu
+2026-05-03 22:57:34 [main] INFO  tests.BaseTest - ✅ Navigated to Mobility & Patient Aid page
+2026-05-03 22:57:34 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 22:57:34 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:57:35 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 22:59:09 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 22:59:13 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 22:59:20 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 22:59:22 [main] INFO  tests.BaseTest - Clicking on 'Personal Care & Hygiene' menu
+2026-05-03 22:59:34 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 22:59:35 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 23:01:42 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:01:47 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:01:54 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 23:01:56 [main] INFO  tests.BaseTest - Clicking on 'Personal Care & Hygiene' menu
+2026-05-03 23:01:59 [main] INFO  tests.BaseTest - ✅ Navigated to Personal Care & Hygiene page
+2026-05-03 23:01:59 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:01:59 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 23:02:00 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 23:03:43 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:03:47 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:04:00 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 23:04:01 [main] INFO  tests.BaseTest - Clicking on 'Orthopedic Support' menu
+2026-05-03 23:04:14 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 23:04:15 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 23:05:35 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:05:39 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:05:44 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 23:05:46 [main] INFO  tests.BaseTest - Clicking on 'Orthopedic Support' menu
+2026-05-03 23:05:51 [main] INFO  tests.BaseTest - ✅ Navigated to Orthopedic Support page
+2026-05-03 23:05:51 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:05:51 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 23:05:51 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 23:08:28 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:08:32 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:08:39 [main] INFO  tests.BaseTest - Checking logo
+2026-05-03 23:08:40 [main] INFO  tests.BaseTest - Closing popup
+2026-05-03 23:08:53 [main] INFO  tests.BaseTest - Checking Facebook icon
+2026-05-03 23:08:59 [main] INFO  tests.BaseTest - Hovering on header menu: Health and Wellness
+2026-05-03 23:09:13 [main] INFO  tests.BaseTest - Hovering on header menu: Respiratory Care
+2026-05-03 23:09:25 [main] INFO  tests.BaseTest - Hovering on header menu: Mobility & Patient Aid
+2026-05-03 23:09:36 [main] INFO  tests.BaseTest - Hovering on header menu: Personal Care & Hygiene
+2026-05-03 23:09:49 [main] INFO  tests.BaseTest - Hovering on header menu: Orthopedic Support
+2026-05-03 23:10:00 [main] INFO  tests.BaseTest - Hovering on header menu: Weighing Scales
+2026-05-03 23:10:12 [main] INFO  tests.BaseTest - Clicking on 'Health and Wellness' menu
+2026-05-03 23:10:24 [main] INFO  tests.BaseTest - ✅ Navigated to Health and Wellness page
+2026-05-03 23:10:24 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:10:26 [main] INFO  tests.BaseTest - Clicking on 'Respiratory Care' menu
+2026-05-03 23:10:37 [main] INFO  tests.BaseTest - ✅ Navigated to Respiratory Care page
+2026-05-03 23:10:37 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:10:38 [main] INFO  tests.BaseTest - Clicking on 'Mobility & Patient Aid' menu
+2026-05-03 23:10:49 [main] INFO  tests.BaseTest - ✅ Navigated to Mobility & Patient Aid page
+2026-05-03 23:10:49 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:10:52 [main] INFO  tests.BaseTest - Clicking on 'Personal Care & Hygiene' menu
+2026-05-03 23:11:04 [main] INFO  tests.BaseTest - ✅ Navigated to Personal Care & Hygiene page
+2026-05-03 23:11:04 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:11:08 [main] INFO  tests.BaseTest - Clicking on 'Orthopedic Support' menu
+2026-05-03 23:11:19 [main] INFO  tests.BaseTest - ✅ Navigated to Orthopedic Support page
+2026-05-03 23:11:19 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:11:21 [main] INFO  tests.BaseTest - Clicking on 'Weighing Scales' menu
+2026-05-03 23:11:33 [main] INFO  tests.BaseTest - ✅ Navigated to Weighing Scales page
+2026-05-03 23:11:33 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
+2026-05-03 23:11:33 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 23:11:34 [main] INFO  tests.BaseTest - ===== Test Finished =====

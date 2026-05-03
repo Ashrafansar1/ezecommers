@@ -5,15 +5,10 @@
     <classes>
       <class name="tests.HomeTests">
         <methods>
-          <include name="testHoverWeighingMenu"/>
-          <include name="testHoverIncontinenceMenu"/>
-          <include name="testHoverMobilityMenu"/>
+          <include name="clickOrthopedicSupport"/>
           <include name="openHome"/>
           <include name="tearDown"/>
-          <include name="testHoverRespiratoryCareMenu"/>
           <include name="setUp"/>
-          <include name="testHoverHealthMenu"/>
-          <include name="testHoverOrthopedicMenu"/>
         </methods>
       </class> <!-- tests.HomeTests -->
     </classes>
