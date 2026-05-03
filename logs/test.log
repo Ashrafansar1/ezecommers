@@ -697,3 +697,13 @@
 2026-05-03 23:11:33 [main] INFO  tests.BaseTest - ✅ Returned to Home Page successfully
 2026-05-03 23:11:33 [main] INFO  tests.BaseTest - Closing browser
 2026-05-03 23:11:34 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 23:32:59 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:33:03 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:36:28 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 23:36:30 [main] INFO  tests.BaseTest - ===== Test Finished =====
+2026-05-03 23:42:10 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:42:14 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:44:26 [main] INFO  tests.BaseTest - ===== Test Started =====
+2026-05-03 23:44:32 [main] INFO  tests.BaseTest - Browser launched
+2026-05-03 23:47:24 [main] INFO  tests.BaseTest - Closing browser
+2026-05-03 23:47:25 [main] INFO  tests.BaseTest - ===== Test Finished =====

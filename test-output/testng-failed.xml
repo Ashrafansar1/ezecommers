@@ -5,9 +5,15 @@
     <classes>
       <class name="tests.HomeTests">
         <methods>
-          <include name="clickOrthopedicSupport"/>
+          <include name="testPersonalCare"/>
+          <include name="testHoverMenu" invocation-numbers="5"/>
+          <include name="testOrthopedic"/>
+          <include name="testWeighingScales"/>
           <include name="openHome"/>
+          <include name="testHealthAndWellness"/>
+          <include name="testMobility"/>
           <include name="tearDown"/>
+          <include name="testRespiratoryCare"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.HomeTests -->
